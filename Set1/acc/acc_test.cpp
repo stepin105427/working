@@ -1,4 +1,4 @@
-/*#include "acc.h"
+#include "acc.h"
 #include <gtest/gtest.h>
 namespace {
 TEST(Account,DefaultConstructor) {
@@ -51,8 +51,8 @@ TEST(Account,DisplayTest) {
     std::string ActualOut = testing::internal::GetCapturedStdout();
     EXPECT_STREQ(ExpectedOut.c_str(), ActualOut.c_str());
 }
-}*/
-#include<iostream>
+}
+/*#include<iostream>
 #include"acc.h"
 using namespace std;
 main()
@@ -66,7 +66,7 @@ main()
     a1.display();
     a1.getBalance();
 
-}
+}*/
 
 
 
